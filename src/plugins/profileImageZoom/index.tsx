@@ -43,4 +43,7 @@ export default definePlugin({
     name: "ProfileImageZoom",
     description: "Allows zooming into user profile images via context menu",
     authors: [Devs.Copilot],
+    contextMenus: {
+        "user-context": UserContext
+    }
 });
